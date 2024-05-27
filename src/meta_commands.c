@@ -1,4 +1,4 @@
-#include "../include/meta_commands.h"
+#include "../include/meta_command.h"
 
 #include <stdlib.h>
 #include <string.h>

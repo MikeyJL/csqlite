@@ -1,6 +1,6 @@
 #include <stdbool.h>
 
-#include "../include/meta_commands.h"
+#include "../include/meta_command.h"
 #include "../include/repl.h"
 
 int main(int argc, char *argv[]) {
