@@ -20,10 +20,10 @@ PrepareResult prepare_statement(InputBuffer *input_buffer,
 void execute_statement(Statement *statement) {
   switch (statement->type) {
   case (STATEMENT_SELECT):
-    printf("Selecting...");
+    printf("Selecting...\n");
     break;
   case (STATEMENT_INSERT):
-    printf("Inserting...");
+    printf("Inserting...\n");
     break;
   }
 }
